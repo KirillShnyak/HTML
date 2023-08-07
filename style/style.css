@@ -1,13 +1,22 @@
 header {
   display: flex;
-  background: aqua;
+  background: gray;
   justify-content: space-around;
   margin-bottom: 5px;
 }
 
+.img_header {
+  width: 40%;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .header_text {
-  align-self: center;
-  padding-left: 5px;
+  width: 60%;
 }
 
 .content {
@@ -15,7 +24,7 @@ header {
 }
 
 .some_section {
-  background: purple;
+  background: gray;
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -27,7 +36,7 @@ header {
 }
 
 main {
-  background: orange;
+  background: gray;
   display: flex;
   flex-direction: column;
   flex-grow: 2;
@@ -37,7 +46,7 @@ main {
 }
 
 .some_aside {
-  background: green;
+  background: gray;
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -50,13 +59,31 @@ main {
 
 footer {
   display: flex;
-  background: red;
+  background: gray;
+
   justify-content: space-around;
   margin-top: 5px;
   align-items: baseline;
 }
 
 .article_footer {
-  width: 20%;
-  padding: 2px;
+  width: 25%;
+}
+
+li {
+  background: orange;
+  width: 100%;
+  height: 5px;
+  margin: 10px 0;
+}
+
+li.header {
+  width: 80%;
+  height: 15px;
+  background: orange;
+}
+
+ul {
+  padding: 0;
+  margin: 15px;
 }
